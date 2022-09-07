@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/app.tsx",
   "scripts": {
+    "build": "esbuild ./src/app.tsx --bundle --outfile=dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
