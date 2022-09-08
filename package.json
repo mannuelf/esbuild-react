@@ -4,12 +4,10 @@
   "description": "",
   "main": "src/app.tsx",
   "scripts": {
-    "build": "esbuild ./src/app.tsx --bundle --outfile=dist/app.js",
+    "build": "esbuild ./src/app.tsx --bundle --minify --sourcemap --outfile=dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "esbuild, react"
-  ],
+  "keywords": ["esbuild, react"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
